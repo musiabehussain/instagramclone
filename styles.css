@@ -1,0 +1,121 @@
+.posts-section {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts {
+    /* display: flex; */
+    /* flex-flow: wrap; */
+}
+
+.post-card {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+    width: 90%;
+    min-height: 250px;
+    border: 1px solid rgb(180, 179, 179);
+    margin:1%;
+    padding: 3%;
+    border-radius: 4px;
+}
+
+.post-buttons {
+    display: flex;
+    font-size: 70px;
+    margin-left: 7%;
+
+    /* margin-left: 16%; */
+}
+
+.iconbtn{
+    background-color: rgba(0, 0, 0, 0.267);
+color: white;
+    width: 20%;
+    height: -5%;
+    border: 3px solid red;
+    font-size: 50%;
+    border-radius: 50%;
+  text-align: center;
+line-height: 80px;
+padding: 3%;
+}
+
+.delete-btn {
+    font-size: 12%;
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+}
+.link {
+    color: royalblue;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* ldjkfhkdjshgkdjsfhgkdsjf */
+
+.instaimage{
+    display: flex;
+    margin-bottom: 30px;
+}
+.instaimage img{
+    right:  10%; 
+     width: 50%;
+    border-radius: 50%;     
+    border: 2px solid red; 
+    width: 10%;
+    height: 10%;
+    background-color: black;
+    
+}
+.imageid{
+    position: relative;
+    left: 14%;
+}
+.mainicons{
+    /* position: relative; */
+    font-size: 30px;
+    right: 30%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.658);
+    font-weight: 1px;
+    /* font-weight: 000.1px; */
+
+}
+.fa-heart{
+    margin-right: 5%;
+
+}
+.mainimage{
+    width: 107.5%;
+    position: relative;
+    right: 14px;
+}
+.fa-comment{
+    margin-right: 7%;
+}
+.fa-location-arrow{
+    margin-right: 7%;
+}
+.fa-bookmark{
+    display: flex;
+    position: relative;
+    left: 43%;
+}
+.fa-ellipsis-v{
+    position: relative;
+    top: 20px;
+    left: 81%;
+
+}
